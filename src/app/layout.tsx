@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Noto_Serif_JP } from "next/font/google";
+import Analytics from "@/components/ui/Analytics";
 import "./globals.css";
 
 const bebas = Bebas_Neue({
@@ -40,7 +41,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" className={`${bebas.variable} ${noto.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
