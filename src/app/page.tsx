@@ -6,6 +6,7 @@ import AboutSection from "@/components/sections/AboutSection";
 import FireKingSection from "@/components/sections/FireKingSection";
 import MenuSection from "@/components/sections/MenuSection";
 import GallerySection from "@/components/sections/GallerySection";
+import MerchandiseSection from "@/components/sections/MerchandiseSection";
 import AccessSection from "@/components/sections/AccessSection";
 import InstagramSection from "@/components/sections/InstagramSection";
 
@@ -20,6 +21,7 @@ export default function Home() {
         <FireKingSection />
         <MenuSection />
         <GallerySection />
+        <MerchandiseSection />
         <AccessSection />
         <InstagramSection />
       </main>
